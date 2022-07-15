@@ -142,7 +142,6 @@ lucky = random.sample(numbers, 6)
 
 - 구분선 생성
 - `-*_`를 3번 이상 연속으로 작성
-- 작성법
 
 ---
 

@@ -6,8 +6,6 @@
 
 ![](C:\Users\소소\AppData\Roaming\marktext\images\2022-09-06-23-34-31-image.png)
 
-
-
 ### urls.py
 
 ```python
@@ -24,7 +22,6 @@ urlpatterns = [
     # path('<int:pk>/edit/', views.edit, name='edit'),
     path('<int:pk>/update/', views.update, name='update'), # GET / POST
 ]
-
 ```
 
 ### views.py
@@ -90,7 +87,6 @@ def update(request, pk):
         'form' : form,
     }
     return render(request, 'articles/update.html', context)
-
 ```
 
 ### create.html
@@ -109,8 +105,6 @@ def update(request, pk):
   <hr>
   <a href="{% url 'articles:index' %}">뒤로가기</a>
 {% endblock content %}
-
-
 ```
 
 ### detail.html
@@ -153,7 +147,6 @@ def update(request, pk):
     <hr>
   {% endfor %}
 {% endblock content %}
-
 ```
 
 ### update.html
@@ -176,5 +169,3 @@ def update(request, pk):
   <a href="{% url 'articles:detail' article.pk %}">뒤로가기</a>
 {% endblock content %}
 ```
-
-

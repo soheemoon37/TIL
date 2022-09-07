@@ -45,6 +45,12 @@ settings.py 에서 INSTALLED_APPS 에서 'django-extensions' 되어있는지 확
 DB 입력할 때
 python manage.py shell_plus
 
+DB 입력할 때
+1. 설계도작성
+python manage.py makemigrations
+2. 만든 설계도를 DB에 최종적으로 보냄
+python manage.py migrate
+
 
 
 

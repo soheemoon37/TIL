@@ -49,7 +49,7 @@ par = [0] * (V+1)
 
 for i in range(E):
     p, c = arr[i*2], arr[i*2+1]
-    if ch1[p] == 0:  # 부모가 없으면 root
+    if ch1[p] == 0:
         ch1[p] = c
     else:
         ch2[p] = c

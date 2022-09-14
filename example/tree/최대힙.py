@@ -9,6 +9,7 @@ def enq(n):
     # 부모가 있고 부모 < 자식 인 경우 자리 교환(부모가 없거나 부모 > 자식 조건을 만족할 때까지)
     while p and heap[p] < heap[c]:
         heap[p], heap[c] = heap[c], heap[p]
+        # 자식이 더 크면 계속 바꿔야 되니까 c, p 값 바꿔줌
         c = p
         p = c // 2
 

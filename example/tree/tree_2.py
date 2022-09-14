@@ -59,10 +59,6 @@ cnt = 0
 preorder(root)
 print()
 print(cnt)
-# inorder(3)
-# print()
-# postorder(3)
-# print()
 
 # 입력
 # 13

@@ -63,7 +63,7 @@ deactivate : 나갈때
 pip install ipython
 pip install django-extensions
 pip freeze > requirements.txt (패키지 목록 업데이트)
-settings.py 에서 INSTALLED_APPS 에서 'django-extensions' 되어있는지 확인하기
+settings.py 에서 INSTALLED_APPS 에서 'django_extensions' 되어있는지 확인하기
 
 
 DB 입력할 때
@@ -75,6 +75,21 @@ DB 입력할 때
 python manage.py makemigrations
 2. 만든 설계도를 DB에 최종적으로 보냄
 python manage.py migrate
+
+
+** URL 분리작업
+1. 프로젝트 urls.py 에서 import include
+2. path('accounts/', include('accouts.urls')), 이런식으로 수정
+3. 각 앱의 urls.py 에서 from . import views
+4. app_name = 'accounts'
+5. urlpatterns = [
+
+] 만들어놓기!!
+6. 각 앱의 templates 에 따로 앱 이름과 같은 파일 생성하기!!
+
+** templates 폴더를 기존 프로젝트와 앱과 같은 위치에 놓기위해서는
+templates 와 그 안에 base.html 만든후에
+settings.py - TEMPLATES 에서 'DIRS': [BASE_DIR / 'templates',], 로 수정하기!!
 
 
 

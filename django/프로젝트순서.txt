@@ -91,7 +91,17 @@ python manage.py migrate
 templates 와 그 안에 base.html 만든후에
 settings.py - TEMPLATES 에서 'DIRS': [BASE_DIR / 'templates',], 로 수정하기!!
 
+** ImageField 사용하려면 Pillow 라이브러리 필요
+pip install Pillow
+python manage.py makemigrations
+python manage.py migrate
+pip freeze > requirements.txt
 
+** 이미지업로드할때
+1. enctype 써야함
+<form action="{% url 'restaurants:create' %}" method="POST" enctype="multipart/form-data">
+2. views.py 에서 create 함수에서 request.FILES 적어야함
+form = RestaurantForm(request.POST, request.FILES)
 
 
 

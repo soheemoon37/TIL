@@ -1,0 +1,18 @@
+*
+mdn nodelist
+이런식으로 mdn 들어가서 추가학습하기
+
+*
+axios - config 요청
+
+*
+vue.js CDN
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+lodash CDN
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
+axios CDN
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+*
+vue2 한글문서
+https://vue2.hphk.io/v2/guide/

@@ -16,3 +16,5 @@ axios CDN
 *
 vue2 한글문서
 https://vue2.hphk.io/v2/guide/
+
+메모장임

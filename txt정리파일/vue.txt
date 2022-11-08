@@ -1,8 +1,17 @@
 *
-vue-cli 로 이동
+-앱설치
+vue create 앱이름
+-vue-cli 로 이동
 cd vue-cli
-서버구동
+-서버구동
 npm run serve
+-vs코드열기
+code .
+-맨처음 모듈설치
+npm install
+-vuex 추가
+vue add vuex
+
 
 *
 github 에 못올림. git init 되어 있어서. git 지우고? 올릴수있음.( .git 지우고 올리기)
@@ -32,3 +41,7 @@ thisselectedTimes.splice(time_idx, 1)
 
 *
 1103 온실 다시해보기
+
+*
+main.js 파일에 들어가서 import App from ~ 에서 ~ 바꾸면
+보이는 vue 파일이 바뀜..!!(App.vue, Appcopy.vue)

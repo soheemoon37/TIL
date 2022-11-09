@@ -45,3 +45,15 @@ thisselectedTimes.splice(time_idx, 1)
 *
 main.js 파일에 들어가서 import App from ~ 에서 ~ 바꾸면
 보이는 vue 파일이 바뀜..!!(App.vue, Appcopy.vue)
+
+*
+<vue router>
+vue create vue-router-app
+cd vue-router-app
+vue add router
+
+*
+1. axios 설치
+npm i axios
+2. <script> 안에
+import axios from 'axios'

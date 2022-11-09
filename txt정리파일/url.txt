@@ -17,4 +17,16 @@ axios CDN
 vue2 한글문서
 https://vue2.hphk.io/v2/guide/
 
-메모장임
+*
+다양한 이벤트 확인
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+*
+axios 공식문서 및 github
+https://axios-http.com/kr/docs/intro
+https://github.com/axios/axios
+
+*
+Can't Unsee
+더 나은 UX/UI 를 고민해볼 수 있는 웹 사이트
+https://cantunsee.space/

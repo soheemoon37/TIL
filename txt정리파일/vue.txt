@@ -57,3 +57,8 @@ vue add router
 npm i axios
 2. <script> 안에
 import axios from 'axios'
+
+*
+부트스트랩 설치
+npm install vue bootstrap-vue bootstrap
+https://velog.io/@gillog/Vue.js-Bootstrap-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0

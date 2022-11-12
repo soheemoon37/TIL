@@ -18,3 +18,11 @@ print(*a)
 **
 print(f'p={p} i={i}')
 이런식으로 체크하면서 풀기!!
+
+**
+이중 리스트에서 max 값 구하기
+ans = max(map(max, arr))
+이중 리스트에서 특정값 있으면 출력값 바꾸기
+for i in arr:
+    if 0 in i:
+        ans = -1

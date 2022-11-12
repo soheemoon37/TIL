@@ -1,0 +1,2 @@
+*
+<div class="d-flex justify-content-center">  {# 카드를 중간으로 놔두는 방법!!!! #}

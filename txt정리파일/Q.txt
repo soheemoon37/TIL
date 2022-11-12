@@ -1,0 +1,18 @@
+*
+회원가입할 때, 왜 username 이랑 password 만 나오지?
+
+*
+accounts 에 비밀번호 변경에서 update_session_auth_hash
+
+*
+get_user_model 이거 뭐였지? profile 에서 보셈
+user 모델 db 다 불러오는건가?
+
+*
+url 경로 지정할 때, setting 에 앱이름 적을 때, 다하고 적는거였나? 찾아봐야할듯..
+
+*
+외래키 뭐였지?
+
+*
+movie 에 create 쪽 post 방식 잘 모르겠음

@@ -67,3 +67,16 @@ https://velog.io/@gillog/Vue.js-Bootstrap-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
 lodash 설치
 npm i lodash
 import _ from 'lodash'
+
+*
+git 사용법
+git add .
+git commit -m'movie detail page 구현'
+git push origin feature/main-page
+git pull
+git merge feature/main-page
+git push origin main
+
+git add .
+git commit -m'feature/main-page'
+git push origin main

@@ -70,13 +70,23 @@ import _ from 'lodash'
 
 *
 git 사용법
+--push 할때
+git status
 git add .
 git commit -m'movie detail page 구현'
-git push origin feature/main-page
+git push origin feature/main-page 이거 하고 나서 에러뜨는지 꼭 확인하기!!
+git status nothing to commit 나오면 브랜치 이동하기
+git switch main  이상없으면 메인으로 이동!
 git pull
-git merge feature/main-page
+git merge feature/main-page 여기서도 에러안나는지 확인해야함!!
 git push origin main
 
 git add .
 git commit -m'feature/main-page'
 git push origin main
+
+--branch 만들때
+git branch feature/movie-comment-CRUD
+git switch feature/movie-comment-CRUD 후 여기 feature에서 작업하기
+
+branch 에서는 pull 받으면 안됨!!

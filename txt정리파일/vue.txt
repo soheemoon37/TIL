@@ -70,6 +70,12 @@ import _ from 'lodash'
 
 *
 git 사용법
+
+항상 브랜치 만들어서 작업하기!!!
+branch 에서는 pull 받으면 안됨!!
+git branch 치면 전에 만들었던 브랜치들 나옴
+푸시하기전에 풀! 브랜치만들기전에 풀! 컴퓨터 쉴때는 푸시!
+
 --push 할때
 git status
 git add .
@@ -89,4 +95,4 @@ git push origin main
 git branch feature/movie-comment-CRUD
 git switch feature/movie-comment-CRUD 후 여기 feature에서 작업하기
 
-branch 에서는 pull 받으면 안됨!!
+

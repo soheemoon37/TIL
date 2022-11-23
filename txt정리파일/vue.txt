@@ -95,4 +95,10 @@ git push origin main
 git branch feature/movie-comment-CRUD
 git switch feature/movie-comment-CRUD 후 여기 feature에서 작업하기
 
+작업하고 다시 기존 브랜치로 돌아올때
+위에랑 똑같이하고 브랜치 돌아와서 git merge main 하면됨!!
+
+머지하려는데 충돌나면 충돌난거 수정하고
+add commit push main 하기!!
+
 

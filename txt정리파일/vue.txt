@@ -101,4 +101,6 @@ git switch feature/movie-comment-CRUD 후 여기 feature에서 작업하기
 머지하려는데 충돌나면 충돌난거 수정하고
 add commit push main 하기!!
 
-
+베이지 #F5F5DC
+남색 #333D51
+황색 #D3AC2B

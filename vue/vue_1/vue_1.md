@@ -1,6 +1,6 @@
-# ✔221030 vue
+# ✔vue
 
-![](vue_assets/2022-11-01-09-39-28-image.png)
+![](vue_1_assets/2023-01-04-16-15-46-image.png)
 
 #### 💗 프론트엔드
 
@@ -53,3 +53,11 @@
     - View 와 연결되어 Action 을 주고 받음
   
   - View 는 Model 을 몰라요, Model 도 View 를 몰라요
+
+<br>
+
+#### 💗 vuex-persistedstate
+
+![](vue_1_assets/2023-01-04-16-08-20-image.png)
+
+![](vue_1_assets/2023-01-04-16-08-39-image.png)
